@@ -25,6 +25,8 @@ public class HumsterMoveNew : MonoBehaviour
     float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
 
+    public float Nuts;
+
     // Update is called once per frame
     void Update()
     {
@@ -56,6 +58,14 @@ public class HumsterMoveNew : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Nut")
+        {
+            Nuts++;
+            other.gameObject.SetActive(false);
         }
     }
 }
