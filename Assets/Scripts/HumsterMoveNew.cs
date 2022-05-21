@@ -6,6 +6,7 @@ using System.Collections.Specialized;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HumsterMoveNew : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class HumsterMoveNew : MonoBehaviour
     public float turnSmoothTime = 0.1f;
 
     public float Nuts;
+
+    public Text TextNuts;
 
     // Update is called once per frame
     void Update()
@@ -66,6 +69,7 @@ public class HumsterMoveNew : MonoBehaviour
         {
             Nuts++;
             other.gameObject.SetActive(false);
+            TextNuts.text = Nuts.ToString();
         }
     }
 }
