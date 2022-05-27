@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637889981590000000
+      ticks: 637890188320000000
     m_Hash: 1638029499
   m_LockFileStatus:
     m_FilePath: D:/Unity/Projects/humster_game/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637889981590000000
+      ticks: 637890188320000000
     m_Hash: 4161022669
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -81,6 +81,7 @@ m_PackageAssets:
         - 2.6.9
         - 2.6.10
         - 2.6.11
+        - 2.6.14
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -96,6 +97,7 @@ m_PackageAssets:
         - 2.8.2
         - 2.8.3
         - 2.8.4
+        - 2.8.6
         - 2.9.0-pre.1
         - 2.9.0-pre.6
         compatible:
@@ -116,6 +118,7 @@ m_PackageAssets:
         - 2.6.9
         - 2.6.10
         - 2.6.11
+        - 2.6.14
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -131,9 +134,10 @@ m_PackageAssets:
         - 2.8.2
         - 2.8.3
         - 2.8.4
+        - 2.8.6
         - 2.9.0-pre.1
         - 2.9.0-pre.6
-        verified: 2.6.11
+        verified: 2.6.14
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -238,6 +242,7 @@ m_PackageAssets:
         - 1.14.15
         - 1.14.16
         - 1.14.17
+        - 1.14.18
         - 1.15.1
         - 1.15.4
         - 1.15.7
@@ -247,6 +252,7 @@ m_PackageAssets:
         - 1.15.15
         - 1.15.16
         - 1.15.17
+        - 1.15.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -265,6 +271,7 @@ m_PackageAssets:
         - 1.15.15
         - 1.15.16
         - 1.15.17
+        - 1.15.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -275,7 +282,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.17
+        verified: 1.15.18
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0

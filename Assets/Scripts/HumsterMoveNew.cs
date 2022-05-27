@@ -30,6 +30,8 @@ public class HumsterMoveNew : MonoBehaviour
 
     public Text TextNuts;
 
+    public GameObject Door;
+
     // Update is called once per frame
     void Update()
     {
@@ -63,6 +65,16 @@ public class HumsterMoveNew : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }
+
+    void FixedUpdate()
+    {
+        Door = GameObject.Find("LastDoor");
+        if (Nuts >= 20)
+        {
+            Destroy(Door);
+        }
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Nut")
